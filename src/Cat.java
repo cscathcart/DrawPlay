@@ -37,10 +37,10 @@ public class Cat {
 		x += EYE_SEPARATION;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
 		// Draw the mouth
-		g2.setColor(Color.yellow); // Changed color from pink to yellow
+		g2.setColor(Color.yellow); // Changed color from pink to yellow - Dylan
 		x = catX + MOUTH_X;
 		y = catY + MOUTH_Y;
-		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
+		g2.fillOval(x, y, MOUTH_WIDTH*3, MOUTH_HEIGHT); // Made our cat smile a whole lot - Dylan
 		g2.setColor(Color.pink); // changed fill color to pink : Chris 
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
